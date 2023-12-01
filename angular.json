@@ -23,9 +23,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/style.css",
+              "src/assets/css/plugins/animate.css",
+              "src/assets/css/plugins/aos.css",
+              "src/assets/css/plugins/bootstrap-grid.min.css",
+              "src/assets/css/plugins/justifiedGallery.min.css",
+              "src/assets/css/plugins/magnific-popup.css",
+              "src/assets/css/plugins/slick.css",
+              "src/assets/css/plugins/swiper.min.css",
+              "src/assets/css/plugins/youtubepopup.css",
+              "src/assets/css/plugins.css"
+             
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/custom.js",
+              "src/assets/js/dsn-grid.js",
+              "src/assets/js/jquery-3.1.1.min.js",
+              "src/assets/js/plugins.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
